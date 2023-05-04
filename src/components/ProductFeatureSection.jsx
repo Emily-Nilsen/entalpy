@@ -1,11 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
-} from '@heroicons/react/20/solid';
+import { Button } from '@/components/Button';
 
 import { HeatIcon } from './Logos';
 import { LeafIcon } from './Logos';
@@ -16,7 +12,7 @@ const features = [
   {
     name: 'Bærekraftig og effektiv.',
     description:
-      'Gir utslippsfri, fornybar energi med 78 % mindre strømforbruk enn direkte elektrisk oppvarming, og reduserer CO2-utslippene med 18 tonn/måned sammenlignet med diesel.',
+      'Gir utslippsfri, fornybar energi med 78% mindre strømforbruk enn direkte elektrisk oppvarming, og reduserer CO2-utslippene med 18 tonn/måned sammenlignet med diesel.',
     icon: (
       <LeafIcon
         className="absolute w-5 h-5 fill-green-600 left-1 top-1"
@@ -86,6 +82,9 @@ export function ProductFeatureSection() {
                   </div>
                 ))}
               </dl>
+              <Button className="my-6" href="/produkter">
+                Finn ut mer om vår produkter
+              </Button>
             </div>
           </div>
           <div className="sm:px-6 lg:px-0">

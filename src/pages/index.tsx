@@ -4,6 +4,9 @@ import Head from 'next/head';
 import { Header } from '@/components/Header';
 import { Hero } from '@/components/Hero';
 import { ProductFeatureSection } from '@/components/ProductFeatureSection';
+import { JobbMedOssSection } from '@/components/JobbMedOssSection';
+import { BlogPreview } from '@/components/BlogPreview';
+import { Footer } from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -18,8 +21,10 @@ export default function Home() {
         <main>
           <Hero />
           <ProductFeatureSection />
+          <JobbMedOssSection />
+          <BlogPreview />
         </main>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
