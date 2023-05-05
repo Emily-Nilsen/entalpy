@@ -12,8 +12,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Entalpy AS</title>
-        <meta name="description" content="Write page description here" />
+        <title>
+          Entalpy AS - Fornybar energi til bygg i Oslo | Varmepumper for utleie
+          og salg
+        </title>
+        <meta
+          name="description"
+          content="Entalpy AS designer og produserer skreddersydde varmepumper for bærekraftig oppvarming og kjøling av bygg. Vi tilbyr utslippsfrie løsninger med effektiv drift og positiv miljøpåvirkning."
+        />
         <link rel="canonical" href="https://www.entalpy.no/" key="canonical" />
       </Head>
       <div className="bg-white">

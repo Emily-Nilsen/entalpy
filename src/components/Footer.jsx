@@ -8,7 +8,9 @@ const navigation = {
   ],
   kundeservice: [
     { name: 'Salg', href: '#' },
-    { name: 'Leveringsbetingelser', href: '#' },
+    { name: 'Betingelser', href: '#' },
+    { name: 'Reklamasjon', href: '#' },
+    { name: 'Personvern', href: '#' },
     { name: 'Kundeportal', href: '#' },
     { name: 'Kontakt oss', href: '#' },
   ],
@@ -131,78 +133,62 @@ export function Footer() {
               ))}
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-8 mt-16 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">
-                  Produkter
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.produkter.map((item) => (
-                    <li key={item.name}>
-                      <Link
-                        href={item.href}
-                        className="text-sm leading-6 text-gray-600 transition duration-300 ease-in-out hover:text-gray-950 hover:underline underline-offset-4 decoration-green-600 decoration-2"
-                      >
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">
-                  Kundeservice
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.kundeservice.map((item) => (
-                    <li key={item.name}>
-                      <Link
-                        href={item.href}
-                        className="text-sm leading-6 text-gray-600 transition duration-300 ease-in-out hover:text-gray-950 hover:underline underline-offset-4 decoration-green-600 decoration-2"
-                      >
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+          <div className="grid grid-cols-2 gap-8 mt-16 sm:grid-cols-3 xl:col-span-2 xl:mt-0 xl:pl-16">
+            {/* Products & Service */}
+
+            <div className="col-span-2 sm:col-span-1">
+              <h3 className="text-sm font-semibold leading-6 text-gray-900">
+                Produkter
+              </h3>
+              <ul role="list" className="mt-6 space-y-4">
+                {navigation.produkter.map((item) => (
+                  <li key={item.name}>
+                    <Link
+                      href={item.href}
+                      className="text-sm leading-6 text-gray-600 transition duration-300 ease-in-out hover:text-gray-950 hover:underline underline-offset-4 decoration-green-600 decoration-2"
+                    >
+                      {item.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">
-                  Bedrift
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.bedrift.map((item) => (
-                    <li key={item.name}>
-                      <Link
-                        href={item.href}
-                        className="text-sm leading-6 text-gray-600 transition duration-300 ease-in-out hover:text-gray-950 hover:underline underline-offset-4 decoration-green-600 decoration-2"
-                      >
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">
-                  Legal
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.legal.map((item) => (
-                    <li key={item.name}>
-                      <Link
-                        href={item.href}
-                        className="text-sm leading-6 text-gray-600 transition duration-300 ease-in-out hover:text-gray-950 hover:underline underline-offset-4 decoration-green-600 decoration-2"
-                      >
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            <div className="mt-0">
+              <h3 className="text-sm font-semibold leading-6 text-gray-900">
+                Kundeservice
+              </h3>
+              <ul role="list" className="mt-6 space-y-4">
+                {navigation.kundeservice.map((item) => (
+                  <li key={item.name}>
+                    <Link
+                      href={item.href}
+                      className="text-sm leading-6 text-gray-600 transition duration-300 ease-in-out hover:text-gray-950 hover:underline underline-offset-4 decoration-green-600 decoration-2"
+                    >
+                      {item.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* About us */}
+
+            <div className="">
+              <h3 className="text-sm font-semibold leading-6 text-gray-900">
+                Om oss
+              </h3>
+              <ul role="list" className="mt-6 space-y-4">
+                {navigation.bedrift.map((item) => (
+                  <li key={item.name}>
+                    <Link
+                      href={item.href}
+                      className="text-sm leading-6 text-gray-600 transition duration-300 ease-in-out hover:text-gray-950 hover:underline underline-offset-4 decoration-green-600 decoration-2"
+                    >
+                      {item.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>

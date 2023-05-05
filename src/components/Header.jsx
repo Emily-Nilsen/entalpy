@@ -164,7 +164,7 @@ export function Header() {
 
           <Popover className="relative">
             <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 gap-x-1 [&:not(:focus-visible)]:focus:outline-none bg-white hover:bg-green-50 transition duration-300 ease-in-out  active:bg-green-100 focus:outline-none focus:ring-1 focus:ring-green-600 rounded-lg py-1.5 px-3 justify-center">
-              Bedriften
+              Om oss
               <ChevronDownIcon
                 className="flex-none w-5 h-5 text-gray-400"
                 aria-hidden="true"

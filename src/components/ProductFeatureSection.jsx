@@ -10,7 +10,7 @@ import { MobileIcon } from './Logos';
 
 const features = [
   {
-    name: 'Bærekraftig og effektiv.',
+    name: 'Bærekraftig og effektiv –',
     description:
       'Gir utslippsfri, fornybar energi med 78% mindre strømforbruk enn direkte elektrisk oppvarming, og reduserer CO2-utslippene med 18 tonn/måned sammenlignet med diesel.',
     icon: (
@@ -21,7 +21,7 @@ const features = [
     ),
   },
   {
-    name: 'Norsk kvalitet.',
+    name: 'Norsk kvalitet –',
     description: 'Norsk design, utviklet og produsert for norske forhold.',
     icon: (
       <SnowflakeIcon
@@ -31,7 +31,7 @@ const features = [
     ),
   },
   {
-    name: 'Oppvarming med høy ytelse.',
+    name: 'Oppvarming med høy ytelse –',
     description:
       'Produserer 90 kW varme med kun 20 kW forbruk, fungerer pålitelig ned til -25°C, og gir effektiv oppvarming med varmluft.',
     icon: (
@@ -42,7 +42,7 @@ const features = [
     ),
   },
   {
-    name: 'Praktisk og håndterlig.',
+    name: 'Praktisk og håndterlig –',
     description:
       'Leveres med en praktisk app for enkel styring og overvåking av varmesystemet.',
     icon: (
@@ -65,7 +65,7 @@ export function ProductFeatureSection() {
                 Varmeløsninger for Norge
               </h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Tilpasset løsninger for enhver situasjon
+                Tilpassede løsninger for enhver situasjon
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 Vi tilbyr skreddersydde, energieffektive og miljøvennlige
@@ -82,8 +82,8 @@ export function ProductFeatureSection() {
                   </div>
                 ))}
               </dl>
-              <Button className="my-6" href="/produkter">
-                Finn ut mer om vår produkter
+              <Button className="mt-12 sm:mb-6" href="/produkter">
+                Finn ut mer om våre produkter
               </Button>
             </div>
           </div>
@@ -95,10 +95,10 @@ export function ProductFeatureSection() {
               />
               <div className="max-w-2xl mx-auto sm:mx-0 sm:max-w-none">
                 <Image
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1683012527/Entalpy/image_02_cropped_lh2pos.webp"
+                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/image_01_cropped_qtmubi.webp"
                   alt="Product screenshot"
-                  width={2432}
-                  height={1442}
+                  width={3177}
+                  height={2140}
                   className="-mb-12 w-[57rem] max-w-none rounded-tl-xl bg-gray-800 ring-1 ring-white/10"
                 />
               </div>
