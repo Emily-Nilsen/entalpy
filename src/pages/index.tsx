@@ -13,8 +13,7 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Entalpy AS - Fornybar energi til bygg i Oslo | Varmepumper for utleie
-          og salg
+          Entalpy AS - Fornybar energi til bygg | Varmepumper for utleie og salg
         </title>
         <meta
           name="description"
