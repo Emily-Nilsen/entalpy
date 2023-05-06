@@ -9,10 +9,10 @@ const navigation = {
   kundeservice: [
     { name: 'Salg', href: '#' },
     { name: 'Betingelser', href: '#' },
-    { name: 'Reklamasjon', href: '#' },
-    { name: 'Personvern', href: '#' },
     { name: 'Kundeportal', href: '#' },
     { name: 'Kontakt oss', href: '#' },
+    { name: 'Personvern', href: '#' },
+    { name: 'Reklamasjon', href: '#' },
   ],
   bedrift: [
     { name: 'Om oss', href: '#' },
