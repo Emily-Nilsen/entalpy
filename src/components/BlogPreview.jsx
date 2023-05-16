@@ -13,7 +13,7 @@ const featuredPost = {
     name: 'Frank Utsola',
     href: '#',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Frank_avatar_dgaurs.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Entalpy_-_Frank_avatar_p9ttvw.webp',
   },
 };
 const posts = [
@@ -29,7 +29,7 @@ const posts = [
       name: 'Frank Utsola',
       href: '#',
       imageUrl:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Frank_avatar_dgaurs.webp',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Entalpy_-_Frank_avatar_p9ttvw.webp',
     },
   },
   {

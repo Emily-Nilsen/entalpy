@@ -15,7 +15,7 @@ const navigation = {
     { name: 'Reklamasjon', href: '#' },
   ],
   bedrift: [
-    { name: 'Om oss', href: '#' },
+    { name: 'Om oss', href: '/om-oss' },
     { name: 'Jobb hos oss', href: '#' },
     { name: 'Blogg', href: '#' },
     { name: 'Media', href: '#' },
