@@ -69,10 +69,11 @@ export function BlogPosts() {
             key={post.id}
             className="relative flex flex-col justify-end px-8 pb-8 overflow-hidden bg-gray-900 isolate rounded-2xl pt-80 sm:pt-48 lg:pt-80"
           >
-            <img
+            <Image
               src={post.imageUrl}
-              alt=""
+              alt={post.title}
               className="absolute inset-0 object-cover w-full h-full -z-10"
+              fill
             />
             <div className="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40" />
             <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
