@@ -46,8 +46,8 @@ const callsToAction = [
 ];
 const company = [
   { name: 'Om oss', href: '/om-oss' },
-  { name: 'Jobb hos oss', href: '/om-oss#jobb-hos-oss' },
-  { name: 'Blogg', href: '/blogg' },
+  { name: 'Jobb hos oss', href: '/om-oss#jobb-med-oss' },
+  { name: 'Blogg', href: '/om-oss#blogg' },
 ];
 
 function classNames(...classes) {
@@ -64,7 +64,7 @@ export function Header() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
+          <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2 group">
             <span className="sr-only">Entalpy AS</span>
             <Image
               className="w-auto h-8"
@@ -74,7 +74,9 @@ export function Header() {
               alt="Entalpy AS logo"
             />
             <span>
-              <h3 className="font-bold text-gray-950">Entalpy AS</h3>
+              <h3 className="font-bold text-gray-950 group-hover:text-[#007e3f] transition duration-300 ease-in-out">
+                Entalpy AS
+              </h3>
             </span>
           </Link>
         </div>
@@ -266,24 +268,24 @@ export function Header() {
                   )}
                 </Disclosure>
 
-                <a
+                <Link
                   href="#"
                   className="block px-3 py-1.5 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                 >
                   Kundeservice
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="block px-3 py-1.5 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                 >
                   Kontakt oss
-                </a>
+                </Link>
 
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
                       <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-1.5 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
-                        Bedriften
+                        Om oss
                         <ChevronDownIcon
                           className={classNames(
                             open ? 'rotate-180' : '',
@@ -309,12 +311,12 @@ export function Header() {
                 </Disclosure>
               </div>
               <div className="py-6">
-                <a
+                <Link
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-1.5.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Kundeportal
-                </a>
+                </Link>
               </div>
             </div>
           </div>

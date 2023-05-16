@@ -16,8 +16,8 @@ const navigation = {
   ],
   bedrift: [
     { name: 'Om oss', href: '/om-oss' },
-    { name: 'Jobb hos oss', href: '#' },
-    { name: 'Blogg', href: '#' },
+    { name: 'Jobb hos oss', href: '/om-oss#jobb-med-oss' },
+    { name: 'Blogg', href: '/om-oss#blogg' },
     { name: 'Media', href: '#' },
     { name: 'Partnere', href: '#' },
   ],
@@ -103,7 +103,7 @@ export function Footer() {
       <div className="px-6 pt-16 pb-8 mx-auto max-w-7xl sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
-            <div className="flex items-center gap-2">
+            <Link href="/" className="flex items-center gap-2 group">
               <span className="sr-only">Entalpy AS</span>
               <Image
                 className="w-auto h-8"
@@ -113,9 +113,11 @@ export function Footer() {
                 alt="Entalpy AS logo"
               />
               <span>
-                <h3 className="font-bold text-gray-950">Entalpy AS</h3>
+                <h3 className="font-bold text-gray-950 group-hover:text-[#007e3f] transition duration-300 ease-in-out">
+                  Entalpy AS
+                </h3>
               </span>
-            </div>
+            </Link>
             <p className="text-sm leading-6 text-gray-600">
               Bærekraftige varmepumper for skreddersydde løsninger – uten
               utslipp.
