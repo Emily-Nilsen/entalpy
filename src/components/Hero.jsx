@@ -29,10 +29,10 @@ export function Hero() {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative px-3 py-1 text-sm leading-6 text-gray-400 rounded-full ring-1 ring-white/10 hover:ring-white/20">
               Bli en del av teamet vårt!{' '}
-              <a href="/om-oss" className="font-semibold text-white">
+              <Link href="/om-oss" className="font-semibold text-white">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Les mer <span aria-hidden="true">&rarr;</span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="text-center">
@@ -46,12 +46,12 @@ export function Hero() {
             </p>
             <div className="flex items-center justify-center mt-10 gap-x-6">
               <Button href="/produkter">Se våre produkter</Button>
-              <a
+              <Link
                 href="/om-oss"
                 className="text-sm font-semibold leading-6 text-white"
               >
                 Les mer om oss <span aria-hidden="true">→</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

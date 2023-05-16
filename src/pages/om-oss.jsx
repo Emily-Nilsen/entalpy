@@ -136,9 +136,11 @@ export default function OmOss() {
         <Mission />
         {/* Image section */}
         <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
-          <img
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1683305744/Entalpy/varmepumpe_fkkys1.webp"
-            alt=""
+          <Image
+            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/varmepumpe_fkkys1.webp"
+            alt="Entalpy AS varmepumpe"
+            width={3623}
+            height={2284}
             className="aspect-[5/2] w-full object-cover xl:rounded-3xl"
           />
         </div>
