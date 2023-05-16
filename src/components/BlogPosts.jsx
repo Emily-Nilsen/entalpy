@@ -90,20 +90,22 @@ export function BlogPosts() {
                   <circle cx={1} cy={1} r={1} />
                 </svg>
                 <div className="flex gap-x-2.5">
-                  <img
+                  <Image
                     src={post.author.imageUrl}
-                    alt=""
+                    alt={post.author.name}
                     className="flex-none w-6 h-6 rounded-full bg-white/10"
+                    width={100}
+                    height={100}
                   />
                   {post.author.name}
                 </div>
               </div>
             </div>
             <h3 className="mt-3 text-lg font-semibold leading-6 text-white">
-              <a href={post.href}>
+              <Link href={post.href}>
                 <span className="absolute inset-0" />
                 {post.title}
-              </a>
+              </Link>
             </h3>
           </article>
         ))}
