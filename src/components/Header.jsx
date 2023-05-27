@@ -152,7 +152,7 @@ export function Header() {
           </Popover>
 
           <Link
-            href="#"
+            href="/betingelser"
             className="text-sm font-semibold leading-6 text-gray-900 [&:not(:focus-visible)]:focus:outline-none bg-white hover:bg-green-50 transition duration-300 ease-in-out  active:bg-green-100 focus:outline-none focus:ring-1 focus:ring-green-600 rounded-lg py-1.5 px-3 justify-center"
           >
             Kundeservice
@@ -269,7 +269,7 @@ export function Header() {
                 </Disclosure>
 
                 <Link
-                  href="#"
+                  href="/betingelser"
                   className="block px-3 py-1.5 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                 >
                   Kundeservice

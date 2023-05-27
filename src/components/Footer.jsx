@@ -7,8 +7,7 @@ const navigation = {
     { name: 'ELL90', href: '#' },
   ],
   kundeservice: [
-    { name: 'Salg', href: '#' },
-    { name: 'Betingelser', href: '#' },
+    { name: 'Salgs- og leveringsbetingelser', href: '/betingelser' },
     { name: 'Kundeportal', href: '#' },
     { name: 'Kontakt oss', href: '/kontakt' },
     { name: 'Personvern', href: '#' },
@@ -20,11 +19,6 @@ const navigation = {
     { name: 'Blogg', href: '/om-oss#blogg' },
     { name: 'Media', href: '#' },
     { name: 'Partnere', href: '#' },
-  ],
-  legal: [
-    { name: 'Claim', href: '#' },
-    { name: 'Privacy', href: '#' },
-    { name: 'Terms', href: '#' },
   ],
   social: [
     {
