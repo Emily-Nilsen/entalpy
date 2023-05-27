@@ -69,7 +69,7 @@ export function Team() {
                       href={person.linkedinUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-400 transition duration-300 ease-in-out hover:text-gray-500"
+                      className="text-gray-400 transition duration-300 ease-in-out cursor-pointer hover:text-gray-500"
                     >
                       <span className="sr-only">LinkedIn</span>
                       <svg

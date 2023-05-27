@@ -42,7 +42,7 @@ const products = [
 
 const callsToAction = [
   { name: 'Se demo', href: '#', icon: PlayCircleIcon },
-  { name: 'Kontakt salg', href: '#', icon: PhoneIcon },
+  { name: 'Kontakt salg', href: '/kontakt', icon: PhoneIcon },
 ];
 const company = [
   { name: 'Om oss', href: '/om-oss' },
@@ -158,7 +158,7 @@ export function Header() {
             Kundeservice
           </Link>
           <Link
-            href="#"
+            href="/kontakt"
             className="text-sm font-semibold leading-6 text-gray-900 [&:not(:focus-visible)]:focus:outline-none bg-white hover:bg-green-50 transition duration-300 ease-in-out  active:bg-green-100 focus:outline-none focus:ring-1 focus:ring-green-600 rounded-lg py-1.5 px-3 justify-center"
           >
             Kontakt oss
@@ -275,7 +275,7 @@ export function Header() {
                   Kundeservice
                 </Link>
                 <Link
-                  href="#"
+                  href="/kontakt"
                   className="block px-3 py-1.5 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                 >
                   Kontakt oss
