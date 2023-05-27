@@ -110,7 +110,7 @@ export default function Kontakt() {
           <form
             action="#"
             name="Entalpy AS - Kontakt skjema"
-            // subject="Kontakt Entalpy AS"
+            subject="Kontakt Entalpy AS"
             data-netlify="true"
             method="POST"
             className="px-6 pt-20 pb-24 sm:pb-32 lg:px-8 lg:py-48"
