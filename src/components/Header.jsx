@@ -25,7 +25,7 @@ const products = [
   {
     name: 'ELL50',
     description: 'Luft varmepumper med en effekt på 50 kW',
-    href: '#',
+    href: '/produkter#ell50',
     icon: (
       <GoodStrengthIcon className="w-6 h-6 fill-gray-600 group-hover:fill-green-600" />
     ),
@@ -33,7 +33,7 @@ const products = [
   {
     name: 'ELL90',
     description: 'Luft varmepumper med en effekt på 90 kW',
-    href: '#',
+    href: '/produkter#ell90',
     icon: (
       <SrongStrengthIcon className="w-6 h-6 fill-gray-600 group-hover:fill-green-600" />
     ),
@@ -41,7 +41,7 @@ const products = [
 ];
 
 const callsToAction = [
-  { name: 'Se demo', href: '#', icon: PlayCircleIcon },
+  { name: 'Se demo', href: '/produkter#demo', icon: PlayCircleIcon },
   { name: 'Kontakt salg', href: '/kontakt', icon: PhoneIcon },
 ];
 const company = [
@@ -58,7 +58,7 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white">
+    <header className="relative z-40 bg-gradient-to-b from-white">
       <nav
         className="flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-8"
         aria-label="Global"
@@ -92,7 +92,7 @@ export function Header() {
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
-            <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 gap-x-1 [&:not(:focus-visible)]:focus:outline-none bg-white hover:bg-green-50 transition duration-300 ease-in-out  active:bg-green-100 focus:outline-none focus:ring-1 focus:ring-green-600 rounded-lg py-1.5 px-3 justify-center">
+            <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 gap-x-1 [&:not(:focus-visible)]:focus:outline-none bg-t hover:bg-green-50 transition duration-300 ease-in-out  active:bg-green-100 focus:outline-none focus:ring-1 focus:ring-green-600 rounded-lg py-1.5 px-3 justify-center">
               Produkter
               <ChevronDownIcon
                 className="flex-none w-5 h-5 text-gray-400"
@@ -165,7 +165,7 @@ export function Header() {
           </Link>
 
           <Popover className="relative">
-            <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 gap-x-1 [&:not(:focus-visible)]:focus:outline-none bg-white hover:bg-green-50 transition duration-300 ease-in-out  active:bg-green-100 focus:outline-none focus:ring-1 focus:ring-green-600 rounded-lg py-1.5 px-3 justify-center">
+            <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 gap-x-1 [&:not(:focus-visible)]:focus:outline-none bg-t hover:bg-green-50 transition duration-300 ease-in-out  active:bg-green-100 focus:outline-none focus:ring-1 focus:ring-green-600 rounded-lg py-1.5 px-3 justify-center">
               Om oss
               <ChevronDownIcon
                 className="flex-none w-5 h-5 text-gray-400"
@@ -199,7 +199,7 @@ export function Header() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link
             href="#"
-            className="text-sm font-semibold leading-6 text-gray-900 [&:not(:focus-visible)]:focus:outline-none bg-white hover:bg-green-50 transition duration-300 ease-in-out  active:bg-green-100 focus:outline-none focus:ring-1 focus:ring-green-600 rounded-lg py-1.5 px-3 justify-center"
+            className="text-sm font-semibold leading-6 text-gray-900 [&:not(:focus-visible)]:focus:outline-none bg-t hover:bg-green-50 transition duration-300 ease-in-out  active:bg-green-100 focus:outline-none focus:ring-1 focus:ring-green-600 rounded-lg py-1.5 px-3 justify-center"
           >
             Kundeportal <span aria-hidden="true">&rarr;</span>
           </Link>
@@ -211,8 +211,8 @@ export function Header() {
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}
       >
-        <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full px-6 py-6 overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <div className="fixed inset-0" />
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full px-6 py-6 overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
               <span className="sr-only">Entalpy AS</span>
@@ -242,7 +242,7 @@ export function Header() {
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-1.5 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
+                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-1.5 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50 text-gray-900">
                         Produkter
                         <ChevronDownIcon
                           className={classNames(
@@ -284,7 +284,7 @@ export function Header() {
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-1.5 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
+                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-1.5 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50 text-gray-900">
                         Om oss
                         <ChevronDownIcon
                           className={classNames(

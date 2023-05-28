@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const navigation = {
   produkter: [
-    { name: 'ELL50', href: '#' },
-    { name: 'ELL90', href: '#' },
+    { name: 'ELL50', href: '/produkter#ell50' },
+    { name: 'ELL90', href: '/produkter#ell90' },
   ],
   kundeservice: [
     { name: 'Salgs- og leveringsbetingelser', href: '/betingelser' },
