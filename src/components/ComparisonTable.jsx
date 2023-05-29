@@ -97,7 +97,7 @@ export function ComparisonTable() {
           </div>
         </div>
         <div className="flow-root max-w-3xl mx-4 mt-8 sm:mx-6 lg:mx-8">
-          <div className="-mx-4 -my-2 overflow-x-auto ring-1 ring-gray-300 sm:-mx-6 lg:-mx-8 sm:rounded-lg">
+          <div className="-mx-4 -my-2 overflow-x-auto rounded-md ring-1 ring-gray-300 sm:-mx-6 lg:-mx-8 sm:rounded-lg">
             <div className="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
               <table className="min-w-full">
                 <thead className="bg-white">
@@ -136,7 +136,7 @@ export function ComparisonTable() {
                       </tr>
                       {location.feature.map((item, itemIdx) => (
                         <tr
-                          key={item.email}
+                          key={item.itemIdx}
                           className={classNames(
                             itemIdx === 0
                               ? 'border-gray-300'

@@ -190,10 +190,11 @@ export function Footer() {
             </div>
           </div>
         </div>
-        <div className="pt-8 mt-16 border-t border-gray-900/10 sm:mt-20 lg:mt-24">
+        <div className="flex justify-between w-full pt-8 mt-16 border-t border-gray-900/10 sm:mt-20 lg:mt-24">
           <p className="text-xs leading-5 text-gray-500">
-            &copy; {new Date().getFullYear()} Entalpy AS. Org. nr 927 097 532
+            &copy; {new Date().getFullYear()} Entalpy AS.
           </p>
+          <p className="text-xs leading-5 text-gray-500">Org. nr 927 097 532</p>
         </div>
       </div>
     </footer>
