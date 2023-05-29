@@ -101,7 +101,7 @@ export default function Betingelser() {
                   <div key={betingelse.name} className="relative pl-9">
                     <dt className="inline font-semibold text-gray-900">
                       <div
-                        className="absolute top-0 left-0 flex items-center justify-center text-sm text-green-700 rounded-full bg-green-600/10 ring-1 ring-inset ring-green-600/10 w-7 h-7"
+                        className="absolute top-0 left-0 flex items-center justify-center text-sm text-green-600 rounded-full bg-green-600/10 ring-1 ring-inset ring-green-600/10 w-7 h-7"
                         aria-hidden="true"
                       >
                         {betingelse.id}
@@ -123,7 +123,7 @@ export default function Betingelser() {
                   <div key={betingelse.name} className="relative pl-9">
                     <dt className="inline font-semibold text-gray-900">
                       <div
-                        className="absolute top-0 left-0 flex items-center justify-center text-sm text-green-700 rounded-full bg-green-600/10 ring-1 ring-inset ring-green-600/10 w-7 h-7"
+                        className="absolute top-0 left-0 flex items-center justify-center text-sm text-green-600 rounded-full bg-green-600/10 ring-1 ring-inset ring-green-600/10 w-7 h-7"
                         aria-hidden="true"
                       >
                         {betingelse.id}
