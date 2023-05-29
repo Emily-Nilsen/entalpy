@@ -5,7 +5,7 @@ const betingelser = [
     id: '1',
     title: 'Alminnelige bestemmelser',
     description: [
-      'Med mindre annet er bestemt, legges følgende bestemmelser til grunn: NL 17. Alminnelige leverings-betingelser for leve- ranser av maskiner og annet mekanisk og elektrisk utstyr, for ordre som ikke inkluderer montering eller igangkjøring. ',
+      'Med mindre annet er bestemt, legges følgende bestemmelser til grunn: NL 17. Alminnelige leverings-betingelser for leveranser av maskiner og annet mekanisk og elektrisk utstyr, for ordre som ikke inkluderer montering eller igangkjøring. ',
     ],
   },
   {
