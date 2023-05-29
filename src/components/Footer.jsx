@@ -11,8 +11,8 @@ const navigation = {
     { name: 'Salgs- og leveringsbetingelser', href: '/betingelser' },
     { name: 'Kundeportal', href: '#' },
     { name: 'Kontakt oss', href: '/kontakt' },
-    { name: 'Personvern', href: '#' },
-    { name: 'Reklamasjon', href: '#' },
+    // { name: 'Personvern', href: '#' },
+    // { name: 'Reklamasjon', href: '#' },
   ],
   bedrift: [
     { name: 'Hjem', href: '/' },
@@ -118,7 +118,7 @@ export function Footer() {
               Bærekraftige varmepumper for skreddersydde løsninger – uten
               utslipp.
             </p>
-            <div className="flex space-x-6">
+            {/* <div className="flex space-x-6">
               {navigation.social.map((item) => (
                 <Link
                   key={item.name}
@@ -129,7 +129,7 @@ export function Footer() {
                   <item.icon className="w-6 h-6" aria-hidden="true" />
                 </Link>
               ))}
-            </div>
+            </div> */}
           </div>
           <div className="grid grid-cols-2 gap-8 mt-16 sm:grid-cols-3 xl:col-span-2 xl:mt-0 xl:pl-16">
             {/* Products & Service */}
