@@ -18,22 +18,31 @@ import {
   PlayCircleIcon,
 } from '@heroicons/react/20/solid';
 
+import { HeatIcon } from './Logos';
 import { GoodStrengthIcon } from './Logos';
 import { SrongStrengthIcon } from './Logos';
 
 const products = [
   {
-    name: 'ELL50',
+    name: 'Varmepumper',
+    description: 'Luft-til-luft industrielle varmepumpe',
+    href: '/produkter',
+    icon: (
+      <HeatIcon className="w-6 h-6 fill-gray-600 group-hover:fill-green-600" />
+    ),
+  },
+  {
+    name: 'Modell ELL50',
     description: 'Luft varmepumper med en effekt på 50 kW',
-    href: '/produkter#ell50',
+    href: '/produkter#modeller',
     icon: (
       <GoodStrengthIcon className="w-6 h-6 fill-gray-600 group-hover:fill-green-600" />
     ),
   },
   {
-    name: 'ELL90',
+    name: 'Modell ELL90',
     description: 'Luft varmepumper med en effekt på 90 kW',
-    href: '/produkter#ell90',
+    href: '/produkter#modeller',
     icon: (
       <SrongStrengthIcon className="w-6 h-6 fill-gray-600 group-hover:fill-green-600" />
     ),

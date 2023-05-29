@@ -6,6 +6,7 @@ import { ProductCommonFeatures } from '@/components/ProductCommonFeatures';
 import { Button } from '@/components/Button';
 import { PumpMainFeatures } from '@/components/PumpsMainFeatures';
 import { M2M } from '@/components/M2M';
+import { ComparisonTable } from '@/components/ComparisonTable';
 
 export default function Produkter() {
   return (
@@ -85,6 +86,7 @@ export default function Produkter() {
       <PumpMainFeatures />
       <M2M />
       <ProductCommonFeatures />
+      <ComparisonTable />
     </section>
   );
 }

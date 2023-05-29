@@ -3,8 +3,9 @@ import Link from 'next/link';
 
 const navigation = {
   produkter: [
-    { name: 'ELL50', href: '/produkter#ell50' },
-    { name: 'ELL90', href: '/produkter#ell90' },
+    { name: 'Varmepumper', href: '/produkter' },
+    { name: 'Modell ELL50', href: '/produkter#modeller' },
+    { name: 'Modell ELL90', href: '/produkter#modeller' },
   ],
   kundeservice: [
     { name: 'Salgs- og leveringsbetingelser', href: '/betingelser' },
@@ -14,11 +15,12 @@ const navigation = {
     { name: 'Reklamasjon', href: '#' },
   ],
   bedrift: [
+    { name: 'Hjem', href: '/' },
     { name: 'Om oss', href: '/om-oss' },
     { name: 'Jobb hos oss', href: '/om-oss#jobb-med-oss' },
     { name: 'Blogg', href: '/om-oss#blogg' },
-    { name: 'Media', href: '#' },
-    { name: 'Partnere', href: '#' },
+    // { name: 'Media', href: '#' },
+    // { name: 'Partnere', href: '#' },
   ],
   social: [
     {
