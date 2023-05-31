@@ -11,15 +11,15 @@ const people = [
     role: 'Daglig leder',
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Entalpy_-_Frank_avatar_p9ttvw.webp',
-    bio: 'Med en VVS-ingeniørbakgrunn og omfattende erfaring innen prosjektutvikling har Frank ekspertise til å utvikle ideer til ferdige produkter. Han er også en erfaren entreprenør og konsulent med internasjonal handelskompetanse.',
+    bio: 'Med en VVS-ingeniørbakgrunn og omfattende erfaring innen prosjektutvikling har Frank ekspertise til å utvikle ideer til ferdige produkter. Han er også en erfaren entreprenør og konsulent med internasjonal erfaring.',
     linkedinUrl: 'https://www.linkedin.com/in/frank-utsola-41487b11/',
   },
   {
     name: 'Svein A. Torgersen',
-    role: 'Daglig leder',
+    role: 'Teknisk leder',
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Entalpy_-_Svein_aofaok.webp',
-    bio: 'Svein har en bred internasjonal erfaring og et omfattende nettverk innen HVAC-bransjen. Med 25 års erfaring med profesjonelle varmepumper og kjølesystemer har han oppnådd suksess ved etablering av selskaper for produsenter i Norge. Svein sin ekspertise omfatter prosjektering av anlegg for boliger, næringsbygg, fiskeoppdrett og grunnkjøling.',
+    bio: 'Svein har en bred internasjonal erfaring og et omfattende nettverk i HVAC-bransjen. Med over 25 års erfaring med profesjonelle varmepumper og kjølesystemer. Svein sin ekspertise omfatter prosjektering av anlegg for boliger, næringsbygg, fiskeoppdrett og grunnkjøling.',
     linkedinUrl: 'https://www.linkedin.com/in/svein-a-torgersen-361b501b/',
   },
 ];

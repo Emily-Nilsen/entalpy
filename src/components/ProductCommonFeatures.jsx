@@ -16,10 +16,6 @@ const features = [
       'EC-ventilatorer med turtallsstyring for optimal effektivitet.',
   },
   {
-    name: 'Fordampertrau',
-    description: 'Indirekte oppvarmet fordampertrau for pålitelig ytelse.',
-  },
-  {
     name: 'Elektrokomponenter',
     description: 'Elektrokomponenter av høy industrikvalitet.',
   },

@@ -49,6 +49,11 @@ const locations = [
         ell90: '15',
         ell50: '15',
       },
+      {
+        name: 'Indirekte oppvarming fordamertrau',
+        ell90: 'Ja',
+        ell50: 'Nei',
+      },
     ],
   },
   {
