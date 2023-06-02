@@ -4,7 +4,6 @@ import { Mission } from '../components/Mission';
 import { Team } from '../components/Team';
 import { BlogPosts } from '../components/BlogPosts';
 import { JobbHosOss } from '../components/JobbHosOss';
-import { Tekniker } from '../components/Tekniker';
 // import { LogoCloud } from '../components/LogoCloud';
 
 export default function OmOss() {
@@ -138,7 +137,7 @@ export default function OmOss() {
         {/* Image section */}
         <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
           <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/varmepumpe_fkkys1.webp"
+            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Extended_photo_ylio9a.webp"
             alt="Entalpy AS varmepumpe"
             width={3623}
             height={2284}
@@ -146,10 +145,7 @@ export default function OmOss() {
           />
         </div>
 
-        {/* Jobb hos oss section */}
-        {/* <Tekniker /> */}
         <JobbHosOss />
-        {/* Team section */}
         <Team />
 
         {/* Logo cloud */}

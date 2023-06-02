@@ -109,8 +109,8 @@ export default function Kjøletekniker() {
                   aria-hidden="true"
                 />
                 <span>
-                  Å stå for det du mener og gjøre det du sier. Vi mener at "godt
-                  gjort" er bedre enn "godt tenkt"
+                  Å stå for det du mener og gjøre det du sier. Vi mener at ‘godt
+                  gjort’ er bedre enn ‘godt tenkt’
                 </span>
               </li>
               <li className="flex gap-x-3">
