@@ -73,7 +73,7 @@ export default function Kjøletekniker() {
                   className="flex-none w-2 h-2 mt-2.5 bg-gray-300 rounded-full"
                   aria-hidden="true"
                 />
-                <span>Gode norsk kunnskaper, både muntlig og skriftlig</span>
+                <span>Gode norskkunnskaper, både muntlig og skriftlig</span>
               </li>
             </ul>
           </div>
@@ -101,7 +101,7 @@ export default function Kjøletekniker() {
                   className="flex-none w-2 h-2 mt-2.5 bg-gray-300 rounded-full"
                   aria-hidden="true"
                 />
-                <span>Løsningsorientering</span>
+                <span>Være løsningsorientert</span>
               </li>
               <li className="flex gap-x-3">
                 <div
@@ -150,7 +150,7 @@ export default function Kjøletekniker() {
                   className="flex-none w-5 h-5 mt-1 text-green-600"
                   aria-hidden="true"
                 />
-                <span>Konkurransedyktig lønn og arbeidsbetingelser</span>
+                <span>Konkurransedyktige lønns- og arbeidsvilkår</span>
               </li>
               <li className="flex gap-x-3">
                 <CheckCircleIcon
@@ -190,7 +190,7 @@ export default function Kjøletekniker() {
           </div>
 
           <p className="mt-10">
-            Ta kontakt med daglig leder på telefon{' '}
+            Ta kontakt med daglig leder Frank Utsola på telefon{' '}
             <Link
               href="tel:905 64 983"
               className="font-semibold text-gray-900 transition duration-150 ease-in-out hover:text-green-600"
