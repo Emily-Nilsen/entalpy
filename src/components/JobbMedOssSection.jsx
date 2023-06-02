@@ -46,7 +46,7 @@ export function JobbMedOssSection() {
               </ul> */}
               <div className="flex mt-10">
                 <Link
-                  href="om-oss/#tekniker"
+                  href="om-oss/#jobb-med-oss"
                   className="text-sm font-semibold leading-6 text-green-400"
                 >
                   Jobb med oss <span aria-hidden="true">&rarr;</span>
