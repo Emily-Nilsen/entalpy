@@ -4,29 +4,29 @@ import Link from 'next/link';
 const jobOpenings = [
   {
     id: 1,
-    role: 'Kuldetekniker',
-    href: '#',
+    role: 'Kjøletekniker',
+    href: '/kjoletekniker',
     description:
-      'Ansvarlig for installasjon, vedlikehold og reparasjon av varmepumper og kjølesystemer, og sikrer optimal ytelse og kundetilfredshet.',
-    salary: 'Fulltid',
+      'Erfaren, selvstendig, løsningsorientert. Kundefokusert. Konkurransedyktige betingelser. Utviklingsmuligheter. Samarbeid i et flerfaglig miljø.',
+    stillingsbrøk: 'Fulltid',
     location: 'Stavanger',
   },
   {
     id: 2,
     role: 'Produksjonsplanlegger',
-    href: '#',
+    href: '',
     description:
       'Ansvarlig for å planlegge og optimalisere produksjonsprosessen, sikre effektiv ressursallokering og koordinering av produksjonsaktiviteter.',
-    salary: 'Fulltid',
+    stillingsbrøk: 'Fulltid',
     location: 'Stavanger',
   },
   {
     id: 3,
     role: 'Administrasjons- og logistikksjef',
-    href: '#',
+    href: '',
     description:
       'Ansvarlig for å håndtere administrative og logistikkmessige oppgaver, inkludert innkjøp, lagerstyring og koordinering av transport.',
-    salary: 'Fulltid',
+    stillingsbrøk: 'Fulltid',
     location: 'Stavanger',
   },
 ];
@@ -38,7 +38,7 @@ export function JobbHosOss() {
         <div className="flex flex-col items-end justify-between max-w-2xl gap-16 mx-auto lg:mx-0 lg:max-w-none lg:flex-row">
           <div className="w-full lg:max-w-lg lg:flex-auto">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Jobb med oss
+              Jobb hos oss
             </h2>
             <p className="mt-6 text-xl leading-8 text-gray-600">
               Bli med i vårt dedikerte team og bidra til utviklingen av
@@ -53,27 +53,47 @@ export function JobbHosOss() {
             />
           </div>
           <div className="w-full lg:max-w-xl lg:flex-auto">
-            <h3 className="sr-only">Job openings</h3>
+            <h3 className="sr-only">Stillingsannonser</h3>
             <ul className="-my-8 divide-y divide-gray-100">
               {jobOpenings.map((opening) => (
                 <li key={opening.id} className="py-8">
                   <dl className="relative flex flex-wrap gap-x-3">
-                    <dt className="sr-only">Role</dt>
+                    <dt className="sr-only">Rolle</dt>
                     <dd className="flex-none w-full text-lg font-semibold tracking-tight text-gray-900">
-                      <Link href={opening.href}>
-                        {opening.role}
-                        <span className="absolute inset-0" aria-hidden="true" />
-                      </Link>
+                      {opening.href ? (
+                        <Link className="group" href={opening.href}>
+                          {opening.role}{' '}
+                          <span
+                            className="text-sm text-green-600 bg-green-50 px-3.5 py-2.5 rounded-md group-hover:bg-green-100 group-hover:text-green-700 transition duration-300 ease-in-out ml-3"
+                            aria-hidden="true"
+                          >
+                            {' '}
+                            Stillingsannonse
+                          </span>
+                          <span
+                            className="absolute inset-0"
+                            aria-hidden="true"
+                          />
+                        </Link>
+                      ) : (
+                        <Link className="group" href={opening.href}>
+                          {opening.role}{' '}
+                          <span
+                            className="absolute inset-0 cursor-default"
+                            aria-hidden="true"
+                          />
+                        </Link>
+                      )}
                     </dd>
-                    <dt className="sr-only">Description</dt>
+                    <dt className="sr-only">Beskivelse</dt>
                     <dd className="flex-none w-full mt-2 text-base leading-7 text-gray-600">
                       {opening.description}
                     </dd>
-                    <dt className="sr-only">Salary</dt>
+                    <dt className="sr-only">Stillingsbrøk</dt>
                     <dd className="mt-4 text-base font-semibold leading-7 text-gray-900">
-                      {opening.salary}
+                      {opening.stillingsbrøk}
                     </dd>
-                    <dt className="sr-only">Location</dt>
+                    <dt className="sr-only">Lokasjon</dt>
                     <dd className="flex items-center mt-4 text-base leading-7 text-gray-500 gap-x-3">
                       <svg
                         viewBox="0 0 2 2"
@@ -90,7 +110,7 @@ export function JobbHosOss() {
             </ul>
             <div className="flex pt-8 mt-8 border-t border-gray-100">
               <Link
-                href="#"
+                href="/kontakt"
                 className="text-sm font-semibold leading-6 text-green-600 transition duration-300 ease-in-out hover:text-green-500"
               >
                 Kontakt oss <span aria-hidden="true">&rarr;</span>

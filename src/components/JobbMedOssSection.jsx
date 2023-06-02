@@ -1,17 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { CheckCircleIcon } from '@heroicons/react/20/solid';
-
-const benefits = [
-  'Competitive salaries',
-  'Flexible work hours',
-  '30 days of paid vacation',
-  'Annual team retreats',
-  'Benefits for you and your family',
-  'A great work environment',
-];
-
 export function JobbMedOssSection() {
   return (
     <div className="py-24 bg-gray-950 sm:py-32">
@@ -57,7 +46,7 @@ export function JobbMedOssSection() {
               </ul> */}
               <div className="flex mt-10">
                 <Link
-                  href="om-oss/#jobb-med-oss"
+                  href="om-oss/#tekniker"
                   className="text-sm font-semibold leading-6 text-green-400"
                 >
                   Jobb med oss <span aria-hidden="true">&rarr;</span>

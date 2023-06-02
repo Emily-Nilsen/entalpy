@@ -24,7 +24,7 @@ export default function Home() {
           <Hero />
           <ProductFeatureSection />
           <JobbMedOssSection />
-          <BlogPreview />
+          {/* <BlogPreview /> */}
         </main>
       </div>
     </>

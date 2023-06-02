@@ -9,7 +9,7 @@ const navigation = {
   ],
   kundeservice: [
     { name: 'Salgs- og leveringsbetingelser', href: '/betingelser' },
-    { name: 'Kundeportal', href: '#' },
+    // { name: 'Kundeportal', href: '#' },
     { name: 'Kontakt oss', href: '/kontakt' },
     // { name: 'Personvern', href: '#' },
     // { name: 'Reklamasjon', href: '#' },
@@ -18,7 +18,7 @@ const navigation = {
     { name: 'Hjem', href: '/' },
     { name: 'Om oss', href: '/om-oss' },
     { name: 'Jobb hos oss', href: '/om-oss#jobb-med-oss' },
-    { name: 'Blogg', href: '/om-oss#blogg' },
+    // { name: 'Blogg', href: '/om-oss#blogg' },
     // { name: 'Media', href: '#' },
     // { name: 'Partnere', href: '#' },
   ],

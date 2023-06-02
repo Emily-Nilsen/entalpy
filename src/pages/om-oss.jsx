@@ -4,6 +4,7 @@ import { Mission } from '../components/Mission';
 import { Team } from '../components/Team';
 import { BlogPosts } from '../components/BlogPosts';
 import { JobbHosOss } from '../components/JobbHosOss';
+import { Tekniker } from '../components/Tekniker';
 // import { LogoCloud } from '../components/LogoCloud';
 
 export default function OmOss() {
@@ -146,16 +147,16 @@ export default function OmOss() {
         </div>
 
         {/* Jobb hos oss section */}
+        {/* <Tekniker /> */}
         <JobbHosOss />
+        {/* Team section */}
+        <Team />
 
         {/* Logo cloud */}
         {/* <LogoCloud /> */}
 
-        {/* Team section */}
-        <Team />
-
         {/* Blog section */}
-        <BlogPosts />
+        {/* <BlogPosts /> */}
       </main>
     </div>
   );
