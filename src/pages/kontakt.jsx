@@ -120,7 +120,7 @@ export default function Kontakt() {
               name="form-name"
               value="Entalpy AS - Kontakt skjema"
             />
-            <input type="hidden" name="tema" value="Kontakt Entalpy AS" />
+            <input type="hidden" name="subject" value="Kontakt Entalpy AS" />
             <div className="max-w-xl mx-auto lg:mr-0 lg:max-w-lg">
               <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                 <div>
