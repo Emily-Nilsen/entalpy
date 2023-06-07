@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 import { Button } from '@/components/Button';
 
 const betingelser = [
@@ -73,85 +75,99 @@ const betingelser = [
 
 export default function Betingelser() {
   return (
-    <div className="py-24 bg-white sm:py-32">
-      <div className="px-6 mx-auto max-w-7xl lg:px-8">
-        <div className="max-w-2xl mx-auto lg:mx-0 lg:max-w-none">
-          <p className="text-base font-semibold leading-7 text-green-600">
-            Generelle
-          </p>
-          <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Salgs- og leveringsbetingelser
-          </h1>
-          <div className="grid max-w-xl grid-cols-1 gap-8 mt-10 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2">
-            <div>
-              <p className="text-lg font-semibold">
-                Nedenstående salgs- og leveringsbetingelser anvendes ved alle
-                salg og Leveringer fra Entalpy AS (heretter kalt EAS), med
-                mindre de er helt eller delvis fraveket ved skriftlig avtale
-                mellom EAS og kjøper.
-              </p>
-              {/* <p className="mt-8">
+    <>
+      <Head>
+        <title>Salgs- og leveringsbetingelser - Entalpy AS</title>
+        <meta
+          name="description"
+          content="Få informasjon salgs- og leveringsbetingelser for våre varmepumper. Les våre vilkår og betingelser før du foretar en bestilling eller ett kjøp."
+        />
+        <link
+          rel="canonical"
+          href="https://entalpy.no/betingelser"
+          key="canonical"
+        />
+      </Head>
+      <div className="py-24 bg-white sm:py-32">
+        <div className="px-6 mx-auto max-w-7xl lg:px-8">
+          <div className="max-w-2xl mx-auto lg:mx-0 lg:max-w-none">
+            <p className="text-base font-semibold leading-7 text-green-600">
+              Generelle
+            </p>
+            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              Salgs- og leveringsbetingelser
+            </h1>
+            <div className="grid max-w-xl grid-cols-1 gap-8 mt-10 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2">
+              <div>
+                <p className="text-lg font-semibold">
+                  Nedenstående salgs- og leveringsbetingelser anvendes ved alle
+                  salg og Leveringer fra Entalpy AS (heretter kalt EAS), med
+                  mindre de er helt eller delvis fraveket ved skriftlig avtale
+                  mellom EAS og kjøper.
+                </p>
+                {/* <p className="mt-8">
                 Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
                 odio id et. Id blandit molestie auctor fermentum dignissim.
                 Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
                 et ultrices hac adipiscing egestas.
               </p> */}
-              <dl className="max-w-xl mt-10 space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-                {betingelser.slice(0, 4).map((betingelse) => (
-                  <div key={betingelse.name} className="relative pl-9">
-                    <dt className="inline font-semibold text-gray-900">
-                      <div
-                        className="absolute top-0 left-0 flex items-center justify-center text-sm text-green-600 rounded-full bg-green-600/10 ring-1 ring-inset ring-green-600/10 w-7 h-7"
-                        aria-hidden="true"
-                      >
-                        {betingelse.id}
-                      </div>
-                      {betingelse.title}
-                    </dt>{' '}
-                    <dd className="block space-y-4">
-                      {betingelse.description.map((desc, i) => (
-                        <p key={i}>{desc}</p>
-                      ))}
-                    </dd>
-                  </div>
-                ))}
-              </dl>
+                <dl className="max-w-xl mt-10 space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                  {betingelser.slice(0, 4).map((betingelse) => (
+                    <div key={betingelse.name} className="relative pl-9">
+                      <dt className="inline font-semibold text-gray-900">
+                        <div
+                          className="absolute top-0 left-0 flex items-center justify-center text-sm text-green-600 rounded-full bg-green-600/10 ring-1 ring-inset ring-green-600/10 w-7 h-7"
+                          aria-hidden="true"
+                        >
+                          {betingelse.id}
+                        </div>
+                        {betingelse.title}
+                      </dt>{' '}
+                      <dd className="block space-y-4">
+                        {betingelse.description.map((desc, i) => (
+                          <p key={i}>{desc}</p>
+                        ))}
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+              <div>
+                <dl className="max-w-xl mt-0 space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                  {betingelser.slice(5, 8).map((betingelse) => (
+                    <div key={betingelse.name} className="relative pl-9">
+                      <dt className="inline font-semibold text-gray-900">
+                        <div
+                          className="absolute top-0 left-0 flex items-center justify-center text-sm text-green-600 rounded-full bg-green-600/10 ring-1 ring-inset ring-green-600/10 w-7 h-7"
+                          aria-hidden="true"
+                        >
+                          {betingelse.id}
+                        </div>
+                        {betingelse.title}
+                      </dt>{' '}
+                      <dd className="block space-y-4">
+                        {betingelse.description.map((desc, i) => (
+                          <p key={i}>{desc}</p>
+                        ))}
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
             </div>
-            <div>
-              <dl className="max-w-xl mt-0 space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-                {betingelser.slice(5, 8).map((betingelse) => (
-                  <div key={betingelse.name} className="relative pl-9">
-                    <dt className="inline font-semibold text-gray-900">
-                      <div
-                        className="absolute top-0 left-0 flex items-center justify-center text-sm text-green-600 rounded-full bg-green-600/10 ring-1 ring-inset ring-green-600/10 w-7 h-7"
-                        aria-hidden="true"
-                      >
-                        {betingelse.id}
-                      </div>
-                      {betingelse.title}
-                    </dt>{' '}
-                    <dd className="block space-y-4">
-                      {betingelse.description.map((desc, i) => (
-                        <p key={i}>{desc}</p>
-                      ))}
-                    </dd>
-                  </div>
-                ))}
-              </dl>
+            <div className="flex mt-10">
+              <Button
+                download
+                href="/Entalpy-AS-salgs-og-leveringsbetingelser.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Last ned PDF
+              </Button>
             </div>
-          </div>
-          <div className="flex mt-10">
-            <Button
-              download
-              href="/Entalpy-AS-salgs-og-leveringsbetingelser.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Last ned PDF
-            </Button>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
