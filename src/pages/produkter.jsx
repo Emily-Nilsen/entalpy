@@ -22,7 +22,7 @@ export default function Produkter() {
         />
         <link
           rel="canonical"
-          href="https://entalpy.no/om-oss"
+          href="https://entalpy.no/produkter"
           key="canonical"
         />
       </Head>
