@@ -18,6 +18,10 @@ export default function OmOss() {
           name="description"
           content="Lær mer om Entalpy AS, en ledende produsent av profesjonelle varmepumper i Norge. Utforsk vår ekspertise, erfaring og vårt fokus på kvalitet og bærekraft."
         />
+        <meta
+          name="keywords"
+          content="Entalpy AS – Varmepumpeleverandør i Stavanger, Vår historie og erfaring med varmepumper, Bærekraftig oppvarmingsselskap i Norge, Profesjonelle varmepumpeløsninger fra Entalpy, Varmepumpeeksperter i Stavanger-området, Vår visjon om energieffektiv oppvarming, Teamet vårt av varmepumpeteknikere og mekanikere, Kvalitetsprodukter og pålitelige varmepumpeløsninger, Vårt engasjement for reduksjon av CO2-utslipp, Entalpys bidrag til bærekraftig bygningsoppvarming, Varmepumper tilpasset norske forhold, Vårt samarbeid med B2B-sektoren og byggebransjen, Kontakt oss for mer informasjon om våre varmepumper"
+        />
         <link
           rel="canonical"
           href="https://entalpy.no/om-oss"
@@ -92,7 +96,7 @@ export default function OmOss() {
                           width={200}
                           height={300}
                           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/image_02_cropped_lh2pos.webp"
-                          alt="Entalpy AS"
+                          alt="Entalpy AS, Vår historie og erfaring med varmepumper, Bærekraftig oppvarmingsselskap i Norge, Profesjonelle varmepumpeløsninger fra Entalpy, Varmepumpeeksperter i Stavanger-området, Vår visjon om energieffektiv oppvarming"
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                         />
                         <div className="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -104,7 +108,7 @@ export default function OmOss() {
                           width={200}
                           height={300}
                           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/PDF_image_01_qwapep.webp"
-                          alt="Entalpy AS"
+                          alt="Entalpy AS, Teamet vårt av varmepumpeteknikere og mekanikere, Kvalitetsprodukter og pålitelige varmepumpeløsninger"
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                         />
                         <div className="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -114,7 +118,7 @@ export default function OmOss() {
                           width={200}
                           height={300}
                           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/PDF_image_02_tegbh1.webp"
-                          alt="Entalpy AS"
+                          alt="Entalpy AS, Vårt engasjement for reduksjon av CO2-utslipp, Entalpys bidrag til bærekraftig bygningsoppvarming"
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                         />
                         <div className="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -126,7 +130,7 @@ export default function OmOss() {
                           width={200}
                           height={300}
                           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/image_01_cropped_qtmubi.webp"
-                          alt="Entalpy AS"
+                          alt="Entalpy AS, Varmepumper tilpasset norske forhold"
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                         />
                         <div className="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -136,7 +140,7 @@ export default function OmOss() {
                           width={200}
                           height={300}
                           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/PDF_image_03_rk1mnc.webp"
-                          alt="Entalpy AS"
+                          alt="Entalpy AS, Vårt samarbeid med B2B-sektoren og byggebransjen"
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                         />
                         <div className="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -154,7 +158,7 @@ export default function OmOss() {
           <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
             <Image
               src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Extended_photo_ylio9a.webp"
-              alt="Entalpy AS varmepumpe"
+              alt="Entalpy AS varmepumpe, Kontakt oss for mer informasjon om våre varmepumper, Varmepumpeeksperter i Stavanger-området, Varmepumper tilpasset norske forhold, Varmepumper for boliger og næringsbygg, Varmepumper for fiskeoppdrett og grunnkjøling, Varmepumper for bærekraftig oppvarming"
               width={3623}
               height={2284}
               className="aspect-[5/2] w-full object-cover xl:rounded-3xl"

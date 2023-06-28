@@ -15,6 +15,10 @@ export default function Kontakt() {
           name="description"
           content="Kontakt Entalpy AS for å diskutere dine varmepumpebehov. Vårt team er klare til å svare på spørsmål og tilby skreddersydde løsninger for deg."
         />
+        <meta
+          name="keywords"
+          content="Kontaktinformasjon Entalpy AS, Kundeservice varmepumper Stavanger, Bedriftskontakt varmepumpeleverandør, Tilbud på varmepumper, Varmepumpetekniker rekruttering, Support for industrielle varmepumper, Salg og levering av varmepumper, Spørsmål om energieffektive oppvarmingsløsninger, Varmepumpeinstallasjon Stavanger, Serviceforespørsel for varmepumper, Prisforespørsel på varmepumper, Teknisk støtte for varmepumper, Kundehenvendelse varmepumpeprodukter, Varmepumpeprosjekter i Stavanger, Samarbeid med Entalpy AS"
+        />
         <link
           rel="canonical"
           href="https://entalpy.no/kontakt"

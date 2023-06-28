@@ -16,6 +16,10 @@ export default function Kjøletekniker() {
           name="description"
           content="Bli med på vårt team som kjøletekniker hos Etalpy AS. Vi søker etter erfarne kandidater med kunnskap innen kjøleteknikk og styringssystemer. Søk nå!"
         />
+        <meta
+          name="keywords"
+          content="Ledig stilling som kjøletekniker, Kjøletekniker jobb Stavanger, Karrieremuligheter som kjøletekniker, Sertifisert kjøletekniker søkes, Jobbmuligheter innen kjøleteknikk, Kjøletekniker stilling ledig i Stavanger-området, Kvalifisert kjøletekniker jobbtilbud, Erfaren kjøletekniker ønskes, Jobbmuligheter innen kjøle- og klimaanlegg, Søkere til kjøletekniker stilling ønskes, Kjøletekniker jobbannonse Entalpy AS, Stillingsbeskrivelse for kjøletekniker, Jobbmuligheter med fokus på kjøleteknikk, Kjøletekniker ledig stilling - søk nå!, Kjøletekniker jobbmuligheter i vekstbransjen"
+        />
         <link
           rel="canonical"
           href="https://entalpy.no/koletekniker"
@@ -220,7 +224,7 @@ export default function Kjøletekniker() {
             <img
               className="object-cover aspect-video rounded-xl bg-gray-50"
               src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1683012527/Entalpy/image_01_cropped_qtmubi.webp"
-              alt="Entalpy AS - varmepumper og ventilasjon"
+              alt="Entalpy AS - Ledig stilling som kjøletekniker, Kjøletekniker jobb Stavanger, Karrieremuligheter som kjøletekniker, Sertifisert kjøletekniker søkes, Jobbmuligheter innen kjøleteknikk, Kjøletekniker stilling ledig i Stavanger-området, Kvalifisert kjøletekniker jobbtilbud, Erfaren kjøletekniker ønskes, Jobbmuligheter innen kjøle- og klimaanlegg, Søkere til kjøletekniker stilling ønskes, Kjøletekniker jobbannonse Entalpy AS, Stillingsbeskrivelse for kjøletekniker, Jobbmuligheter med fokus på kjøleteknikk, Kjøletekniker ledig stilling - søk nå!, Kjøletekniker jobbmuligheter i vekstbransjen"
             />
             <figcaption className="flex mt-4 text-sm leading-6 text-gray-500 gap-x-2">
               <InformationCircleIcon

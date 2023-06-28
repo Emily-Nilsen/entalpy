@@ -82,6 +82,10 @@ export default function Betingelser() {
           name="description"
           content="Få informasjon salgs- og leveringsbetingelser for våre varmepumper. Les våre vilkår og betingelser før du foretar en bestilling eller ett kjøp."
         />
+        <meta
+          name="keywords"
+          content="Varmepumpe salgs- og leveringsbetingelser, B2B varmepumpeutleie vilkår, Entalpy AS sine betingelser for varmepumpeprodukter, Betingelser for kjøp og bruk av industrielle varmepumper, Vilkår og avtaler for varmepumpeinstallasjoner, Retningslinjer og betingelser for varmepumpeservice, Entalpy AS - Vilkår for kjøp og support av varmepumper, Vilkår og betingelser for varmepumpevedlikehold, Entalpy AS sine generelle salgsbetingelser, Juridiske betingelser og avtaler for varmepumpebransjen, Betingelser for garantier og reklamasjoner på varmepumper, Varmepumpefinansiering og betalingsbetingelser, Salgs- og leveringsbetingelser for varmepumpekomponenter, Retningslinjer for sikkerhet og ansvar ved bruk av varmepumper, Betingelser for varmepumpeserviceavtaler og supporttjenester"
+        />
         <link
           rel="canonical"
           href="https://entalpy.no/betingelser"

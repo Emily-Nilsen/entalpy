@@ -8,7 +8,7 @@ export function Hero() {
       <div className="relative overflow-hidden isolate">
         <Image
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/PDF_image_03_rk1mnc.webp"
-          alt="Entalpy AS"
+          alt="Entalpy AS - Bygningsoppvarming i Stavanger, B2B varmepumpesupplier, Effektive varmepumper, Energieffektiv oppvarming, Klimavennlig energiløsning, Profesjonelle varmepumpeleverandører"
           fill
           className="absolute inset-0 object-cover w-full h-full -z-10"
         />

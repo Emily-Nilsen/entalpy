@@ -20,6 +20,10 @@ export default function Produkter() {
           name="description"
           content="Utforsk vårt sortiment av profesjonelle varmepumper, inkludert modeller på 50 kW og 90 kW. Bygget for byggtørking og oppvarming. Kontakt oss for mer informasjon!"
         />
+        <meta
+          name="keywords"
+          content="Industrielle varmepumpe modeller, ELL50, ELL90, Effektive varmepumper for bygninger, Varmepumpe utleie for bedrifter, Varmepumper med høy varmeproduksjon, Energieffektive oppvarmingsløsninger, Miljøvennlig varmepumpeteknologi, Norske varmepumpeprodusenter, Varmepumper for kaldt klima, Varmepumper for reduksjon av CO2-utslipp, Skalerbare varmepumpeløsninger, Pålitelige varmepumper for industribruk, Varmepumper med avanserte styringssystemer, Energibesparende varmepumper, Fleksible varmepumper for forskjellige bygningsstørrelser"
+        />
         <link
           rel="canonical"
           href="https://entalpy.no/produkter"
@@ -89,7 +93,7 @@ export default function Produkter() {
                 <div className="p-2 -m-2 rounded-xl bg-gray-900/5 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
                   <Image
                     src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1685289910/Entalpy/varmepumper_-_cropped_rplpqy.webp"
-                    alt="Entalpy AS varmepumper"
+                    alt="Entalpy AS varmepumper, Industrielle varmepumpe modeller, ELL50, ELL90, Effektive varmepumper for bygninger, Varmepumpe utleie for bedrifter, Varmepumper med høy varmeproduksjon, Energieffektive oppvarmingsløsninger, Miljøvennlig varmepumpeteknologi, Norske varmepumpeprodusenter"
                     width={3061}
                     height={1626}
                     className="w-[76rem] rounded-md shadow-2xl ring-1 ring-gray-900/10"

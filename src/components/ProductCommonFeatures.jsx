@@ -32,7 +32,7 @@ export function ProductCommonFeatures() {
                 src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Produkt_bilde_1_rcwyyt.webp"
                 width={1318}
                 height={1157}
-                alt="Entalpy AS varmepumpe modell ELL90"
+                alt="Entalpy AS varmepumpe modell ELL90, Varmepumper for reduksjon av CO2-utslipp, Skalerbare varmepumpeløsninger, Pålitelige varmepumper for industribruk"
                 className="object-cover object-center w-full h-full"
               />
             </div>
@@ -42,14 +42,14 @@ export function ProductCommonFeatures() {
                   src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Produkt_bilde_2_q9ajkm.webp"
                   width={1580}
                   height={864}
-                  alt="Entalpy AS varmepumpe modell ELL90"
+                  alt="Entalpy AS varmepumpe modell ELL90, Varmepumper med avanserte styringssystemer, Energibesparende varmepumper, Fleksible varmepumper for forskjellige bygningsstørrelser"
                   className="object-cover object-center w-full h-full"
                 />
               </div>
               <div className="overflow-hidden bg-gray-100 rounded-lg aspect-h-1 aspect-w-1">
                 <Image
                   src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/varmepumpe_fkkys1.webp"
-                  alt="Entalpy AS varmepumpe modell ELL90"
+                  alt="Entalpy AS varmepumpe modell ELL90, Varmepumpeleverandør i Stavanger"
                   width={3623}
                   height={2284}
                   className="object-cover object-center w-full h-full"
