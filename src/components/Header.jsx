@@ -17,6 +17,7 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from '@heroicons/react/20/solid';
+import MyLink from '@/components/MyLink';
 
 import { HeatIcon } from './Logos';
 import { GoodStrengthIcon } from './Logos';
@@ -65,6 +66,9 @@ function classNames(...classes) {
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+  };
 
   return (
     <header className="relative z-40 bg-gradient-to-b from-white">
@@ -72,22 +76,27 @@ export function Header() {
         className="flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-8"
         aria-label="Global"
       >
-        <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2 group">
-            <span className="sr-only">Entalpy AS</span>
-            <Image
-              className="w-auto h-8"
-              width={100}
-              height={100}
-              src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Logo_Entalpy_q4xaqn.png"
-              alt="Entalpy AS logo"
-            />
-            <span>
-              <h3 className="font-bold text-gray-950 group-hover:text-[#007e3f] transition duration-300 ease-in-out">
-                Entalpy AS
-              </h3>
-            </span>
-          </Link>
+        <div>
+          <div className="flex lg:flex-1">
+            <Link
+              href="/"
+              className="-m-1.5 p-1.5 flex items-center gap-2 group"
+            >
+              <span className="sr-only">Entalpy AS</span>
+              <Image
+                className="w-auto h-8"
+                width={100}
+                height={100}
+                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Logo_Entalpy_q4xaqn.png"
+                alt="Entalpy AS logo"
+              />
+              <span>
+                <h3 className="font-bold text-gray-950 group-hover:text-[#007e3f] transition duration-300 ease-in-out">
+                  Entalpy AS
+                </h3>
+              </span>
+            </Link>
+          </div>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -223,19 +232,21 @@ export function Header() {
         <div className="fixed inset-0" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full px-6 py-6 overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
-              <span className="sr-only">Entalpy AS</span>
-              <Image
-                className="w-auto h-8"
-                width={100}
-                height={100}
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Logo_Entalpy_q4xaqn.png"
-                alt="Entalpy AS logo"
-              />
-              <span>
-                <h3 className="font-bold text-gray-950">Entalpy AS</h3>
-              </span>
-            </Link>
+            <button type="button" onClick={() => setMobileMenuOpen(false)}>
+              <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
+                <span className="sr-only">Entalpy AS</span>
+                <Image
+                  className="w-auto h-8"
+                  width={100}
+                  height={100}
+                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Logo_Entalpy_q4xaqn.png"
+                  alt="Entalpy AS logo"
+                />
+                <span>
+                  <h3 className="font-bold text-gray-950">Entalpy AS</h3>
+                </span>
+              </Link>
+            </button>
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -276,19 +287,27 @@ export function Header() {
                     </>
                   )}
                 </Disclosure>
-
-                <Link
-                  href="/betingelser"
-                  className="block px-3 py-1.5 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
-                >
-                  Kundeservice
-                </Link>
-                <Link
-                  href="/kontakt"
-                  className="block px-3 py-1.5 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
-                >
-                  Kontakt oss
-                </Link>
+                <div>
+                  <button
+                    type="button"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    <Link
+                      href="/betingelser"
+                      className="block px-3 py-1.5 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
+                    >
+                      Kundeservice
+                    </Link>
+                  </button>
+                </div>
+                <button type="button" onClick={() => setMobileMenuOpen(false)}>
+                  <Link
+                    href="/kontakt"
+                    className="block px-3 py-1.5 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
+                  >
+                    Kontakt oss
+                  </Link>
+                </button>
 
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
