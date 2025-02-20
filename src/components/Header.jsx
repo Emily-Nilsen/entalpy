@@ -68,7 +68,7 @@ export function Header() {
                 className="w-auto h-8"
                 width={100}
                 height={100}
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Logo_Entalpy_q4xaqn.png"
+                src="/media/Logo_Entalpy.png"
                 alt="Entalpy AS logo"
               />
               <span>
@@ -213,7 +213,7 @@ export function Header() {
                   className="w-auto h-8"
                   width={100}
                   height={100}
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Logo_Entalpy_q4xaqn.png"
+                  src="/media/Logo_Entalpy.png"
                   alt="Entalpy AS logo"
                 />
                 <span>

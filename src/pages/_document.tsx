@@ -4,10 +4,7 @@ export default function Document() {
   return (
     <Html lang="no">
       <Head>
-        <link
-          rel="icon"
-          href="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Logo_Entalpy_q4xaqn.png"
-        />
+        <link rel="icon" href="/media/Logo_Entalpy.png" />
         <link
           rel="stylesheet"
           href="https://use.typekit.net/gnu4bgp.css"

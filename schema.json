@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "logo": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Logo_Entalpy_q4xaqn.png",
+  "logo": "/media/Logo_Entalpy.png",
   "image": "/media/image_02_cropped.webp",
   "@id": "https://entalpy.no/",
   "name": "Entalpy AS",
