@@ -127,7 +127,7 @@ export default function OmOss() {
                         <Image
                           width={200}
                           height={300}
-                          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/image_01_cropped_qtmubi.webp"
+                          src="/media/image_01_cropped.webp"
                           alt="Entalpy AS, Varmepumper tilpasset norske forhold"
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                         />

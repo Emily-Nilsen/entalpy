@@ -92,7 +92,7 @@ export function ProductFeatureSection() {
               />
               <div className="max-w-2xl mx-auto sm:mx-0 sm:max-w-none">
                 <Image
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/image_01_cropped_qtmubi.webp"
+                  src="/media/image_01_cropped.webp"
                   alt="Leie varmepumper for bedrifter, Konstruksjonsselskapers oppvarmingsløsninger, Varmepumpe med lavt strømforbruk, Miljøvennlig oppvarmingsteknologi, Skreddersydde varmepumper for norske forhold, Pålitelige varmepumper i kaldt klima, Enkel drift og styring av varmepumper, Varmepumper for reduserte CO2-utslipp"
                   width={3177}
                   height={2140}
