@@ -105,7 +105,7 @@ export default function OmOss() {
                         <Image
                           width={200}
                           height={300}
-                          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/PDF_image_01_qwapep.webp"
+                          src="/media/PDF_image_01.webp"
                           alt="Entalpy AS, Teamet vårt av varmepumpeteknikere og mekanikere, Kvalitetsprodukter og pålitelige varmepumpeløsninger"
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                         />

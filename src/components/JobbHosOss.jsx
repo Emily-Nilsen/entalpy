@@ -45,7 +45,7 @@ export function JobbHosOss() {
               innovative løsninger basert på fornybar energi hos Entalpy AS.
             </p>
             <Image
-              src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1683012527/Entalpy/PDF_image_01_qwapep.webp"
+              src="/media/PDF_image_01.webp"
               alt=""
               className="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]"
               width={1181}
