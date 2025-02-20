@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "logo": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Logo_Entalpy_q4xaqn.png",
-  "image": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/image_02_cropped_lh2pos.webp",
+  "image": "/media/image_02_cropped.webp",
   "@id": "https://entalpy.no/",
   "name": "Entalpy AS",
   "slogan": "Bærekraftige varmepumper for skreddersydde løsninger – uten utslipp.",

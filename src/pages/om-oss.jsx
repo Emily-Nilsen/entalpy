@@ -93,7 +93,7 @@ export default function OmOss() {
                         <Image
                           width={200}
                           height={300}
-                          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/image_02_cropped_lh2pos.webp"
+                          src="/media/image_02_cropped.webp"
                           alt="Entalpy AS, Vår historie og erfaring med varmepumper, Bærekraftig oppvarmingsselskap i Norge, Profesjonelle varmepumpeløsninger fra Entalpy, Varmepumpeeksperter i Stavanger-området, Vår visjon om energieffektiv oppvarming"
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                         />
