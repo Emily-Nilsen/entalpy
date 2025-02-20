@@ -137,7 +137,7 @@ export default function OmOss() {
                         <Image
                           width={200}
                           height={300}
-                          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/PDF_image_03_rk1mnc.webp"
+                          src="/media/PDF_image_03.webp"
                           alt="Entalpy AS, Vårt samarbeid med B2B-sektoren og byggebransjen"
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                         />
