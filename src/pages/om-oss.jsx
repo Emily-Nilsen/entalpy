@@ -115,7 +115,7 @@ export default function OmOss() {
                         <Image
                           width={200}
                           height={300}
-                          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/PDF_image_02_tegbh1.webp"
+                          src="/media/PDF_image_02.webp"
                           alt="Entalpy AS, Vårt engasjement for reduksjon av CO2-utslipp, Entalpys bidrag til bærekraftig bygningsoppvarming"
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                         />
