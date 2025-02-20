@@ -47,7 +47,7 @@ export function ProductCommonFeatures() {
               </div>
               <div className="overflow-hidden bg-gray-100 rounded-lg aspect-h-1 aspect-w-1">
                 <Image
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/varmepumpe_fkkys1.webp"
+                  src="/media/varmepumpe.webp"
                   alt="Entalpy AS varmepumpe modell ELL90, Varmepumpeleverandør i Stavanger"
                   width={3623}
                   height={2284}

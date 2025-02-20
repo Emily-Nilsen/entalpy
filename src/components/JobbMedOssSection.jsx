@@ -11,7 +11,7 @@ export function JobbMedOssSection() {
               className="flex-none object-cover w-full shadow-xl h-96 rounded-2xl lg:aspect-square lg:h-auto lg:max-w-sm"
               width={1500}
               height={1000}
-              src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Jobb_med_oss_p5vybw.webp"
+              src="/media/Jobb_med_oss.webp"
               alt="Jobb med oss - Entalpy AS"
             />
             <div className="flex-auto w-full">
