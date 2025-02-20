@@ -28,7 +28,7 @@ export function ProductCommonFeatures() {
           <div>
             <div className="overflow-hidden bg-gray-100 rounded-lg aspect-h-1 aspect-w-1">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Produkt_bilde_1_rcwyyt.webp"
+                src="/media/Produkt_bilde_1.webp"
                 width={1318}
                 height={1157}
                 alt="Entalpy AS varmepumpe modell ELL90, Varmepumper for reduksjon av CO2-utslipp, Skalerbare varmepumpeløsninger, Pålitelige varmepumper for industribruk"
@@ -38,7 +38,7 @@ export function ProductCommonFeatures() {
             <div className="grid grid-cols-2 gap-4 mt-4 sm:mt-6 sm:gap-6 lg:mt-8 lg:gap-8">
               <div className="overflow-hidden bg-gray-100 rounded-lg aspect-h-1 aspect-w-1">
                 <Image
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Produkt_bilde_2_q9ajkm.webp"
+                  src="/media/Produkt_bilde_2.webp"
                   width={1580}
                   height={864}
                   alt="Entalpy AS varmepumpe modell ELL90, Varmepumper med avanserte styringssystemer, Energibesparende varmepumper, Fleksible varmepumper for forskjellige bygningsstørrelser"
