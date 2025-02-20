@@ -155,7 +155,7 @@ export default function OmOss() {
           {/* Image section */}
           <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
             <Image
-              src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Entalpy/Extended_photo_ylio9a.webp"
+              src="/media/Extended_photo.webp"
               alt="Entalpy AS varmepumpe, Kontakt oss for mer informasjon om våre varmepumper, Varmepumpeeksperter i Stavanger-området, Varmepumper tilpasset norske forhold, Varmepumper for boliger og næringsbygg, Varmepumper for fiskeoppdrett og grunnkjøling, Varmepumper for bærekraftig oppvarming"
               width={3623}
               height={2284}
