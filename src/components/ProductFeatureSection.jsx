@@ -1,8 +1,5 @@
 import Image from 'next/image';
-import Link from 'next/link';
-
 import { Button } from '@/components/Button';
-
 import { HeatIcon } from './Logos';
 import { LeafIcon } from './Logos';
 import { SnowflakeIcon } from './Logos';

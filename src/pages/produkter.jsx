@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import Head from 'next/head';
 
 import { ChevronRightIcon } from '@heroicons/react/20/solid';
@@ -80,12 +79,6 @@ export default function Produkter() {
               </p>
               <div className="flex items-center mt-10 gap-x-6">
                 <Button href="/kontakt">Kontakt oss</Button>
-                {/* <Link
-                href="/kontakt"
-                className="text-sm font-semibold leading-6 text-gray-900"
-              >
-                Kontakt oss <span aria-hidden="true">→</span>
-              </Link> */}
               </div>
             </div>
             <div className="flex max-w-2xl mx-auto mt-16 sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">

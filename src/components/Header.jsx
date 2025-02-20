@@ -1,23 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { AnimatePresence, motion } from 'framer-motion';
 import { Fragment, useState } from 'react';
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react';
-import {
-  ArrowPathIcon,
-  Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
-  XMarkIcon,
-} from '@heroicons/react/24/outline';
-import {
-  ChevronDownIcon,
-  PhoneIcon,
-  PlayCircleIcon,
-} from '@heroicons/react/20/solid';
-import MyLink from '@/components/MyLink';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { ChevronDownIcon, PhoneIcon } from '@heroicons/react/20/solid';
 
 import { HeatIcon } from './Logos';
 import { GoodStrengthIcon } from './Logos';
@@ -51,13 +37,11 @@ const products = [
 ];
 
 const callsToAction = [
-  // { name: 'Se demo', href: '/produkter#demo', icon: PlayCircleIcon },
   { name: 'Kontakt salg', href: '/kontakt', icon: PhoneIcon },
 ];
 const company = [
   { name: 'Om oss', href: '/om-oss' },
   { name: 'Jobb hos oss', href: '/om-oss#jobb-med-oss' },
-  // { name: 'Blogg', href: '/om-oss#blogg' },
 ];
 
 function classNames(...classes) {
@@ -66,9 +50,6 @@ function classNames(...classes) {
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const closeMobileMenu = () => {
-    setMobileMenuOpen(false);
-  };
 
   return (
     <header className="relative z-40 bg-gradient-to-b from-white">
@@ -214,14 +195,7 @@ export function Header() {
             </Transition>
           </Popover>
         </Popover.Group>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          {/* <Link
-            href="#"
-            className="text-sm font-semibold leading-6 text-gray-900 [&:not(:focus-visible)]:focus:outline-none bg-t hover:bg-green-50 transition duration-300 ease-in-out  active:bg-green-100 focus:outline-none focus:ring-1 focus:ring-green-600 rounded-lg py-1.5 px-3 justify-center"
-          >
-            Kundeportal <span aria-hidden="true">&rarr;</span>
-          </Link> */}
-        </div>
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end"></div>
       </nav>
       <Dialog
         as="div"
@@ -338,14 +312,6 @@ export function Header() {
                   )}
                 </Disclosure>
               </div>
-              {/* <div className="py-6">
-                <Link
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-1.5.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Kundeportal
-                </Link>
-              </div> */}
             </div>
           </div>
         </Dialog.Panel>

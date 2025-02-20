@@ -1,9 +1,3 @@
-import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  LockClosedIcon,
-} from '@heroicons/react/20/solid';
-
 import { ShieldIcon } from '@/components/Logos';
 import { FanIcon } from '@/components/Logos';
 import { ToggleIcon } from '@/components/Logos';
@@ -62,14 +56,7 @@ export function PumpMainFeatures() {
                 </dt>
                 <dd className="flex flex-col flex-auto mt-4 text-base leading-7 text-gray-600">
                   <p className="flex-auto">{feature.description}</p>
-                  <p className="mt-6">
-                    {/* <a
-                      href={feature.href}
-                      className="text-sm font-semibold leading-6 text-green-600"
-                    >
-                      Learn more <span aria-hidden="true">→</span>
-                    </a> */}
-                  </p>
+                  <p className="mt-6"></p>
                 </dd>
               </div>
             ))}

@@ -30,20 +30,6 @@ export function JobbMedOssSection() {
                 vil vi gjerne høre fra deg. Bli en del av vårt team av fagfolk!
               </p>
 
-              {/* <ul
-                role="list"
-                className="grid grid-cols-1 mt-10 text-base leading-7 text-white gap-x-8 gap-y-3 sm:grid-cols-2"
-              >
-                {benefits.map((benefit) => (
-                  <li key={benefit} className="flex gap-x-3">
-                    <CheckCircleIcon
-                      className="flex-none w-5 h-7"
-                      aria-hidden="true"
-                    />
-                    {benefit}
-                  </li>
-                ))}
-              </ul> */}
               <div className="flex mt-10">
                 <Link
                   href="om-oss/#jobb-med-oss"

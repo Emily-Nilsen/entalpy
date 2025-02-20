@@ -109,12 +109,6 @@ export default function Betingelser() {
                   mindre de er helt eller delvis fraveket ved skriftlig avtale
                   mellom EAS og kjøper.
                 </p>
-                {/* <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
-                Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-                et ultrices hac adipiscing egestas.
-              </p> */}
                 <dl className="max-w-xl mt-10 space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                   {betingelser.slice(0, 4).map((betingelse) => (
                     <div key={betingelse.name} className="relative pl-9">

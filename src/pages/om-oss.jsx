@@ -1,9 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Link from 'next/link';
 import { Mission } from '../components/Mission';
 import { Team } from '../components/Team';
-import { BlogPosts } from '../components/BlogPosts';
 import { JobbHosOss } from '../components/JobbHosOss';
 // import { LogoCloud } from '../components/LogoCloud';
 
@@ -167,12 +165,6 @@ export default function OmOss() {
 
           <JobbHosOss />
           <Team />
-
-          {/* Logo cloud */}
-          {/* <LogoCloud /> */}
-
-          {/* Blog section */}
-          {/* <BlogPosts /> */}
         </main>
       </div>
     </>

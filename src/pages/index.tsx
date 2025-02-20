@@ -1,10 +1,7 @@
-import Image from 'next/image';
 import Head from 'next/head';
-
 import { Hero } from '@/components/Hero';
 import { ProductFeatureSection } from '@/components/ProductFeatureSection';
 import { JobbMedOssSection } from '@/components/JobbMedOssSection';
-import { BlogPreview } from '@/components/BlogPreview';
 
 export default function Home() {
   return (
@@ -28,7 +25,6 @@ export default function Home() {
           <Hero />
           <ProductFeatureSection />
           <JobbMedOssSection />
-          {/* <BlogPreview /> */}
         </main>
       </div>
     </>

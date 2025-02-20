@@ -1,9 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import {
-  CheckCircleIcon,
-  InformationCircleIcon,
-} from '@heroicons/react/20/solid';
 
 const people = [
   {

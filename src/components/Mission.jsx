@@ -34,13 +34,6 @@ export function Mission() {
                 bruksområder. Vi er forpliktet til å være en pålitelig partner
                 og lede veien mot en bærekraftig fremtid.
               </p>
-              {/* <p className="mt-10">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
-                Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-                et ultrices hac adipiscing egestas. Iaculis convallis ac tempor
-                et ut. Ac lorem vel integer orci.
-              </p> */}
             </div>
           </div>
           <div className="lg:flex lg:flex-auto lg:justify-center">
