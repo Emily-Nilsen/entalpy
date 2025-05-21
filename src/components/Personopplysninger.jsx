@@ -122,7 +122,7 @@ export function Personopplysninger() {
                   informasjon om enhetene du bruker.
                 </span>
               </li>
-              <li className="flex gap-x-3">
+              {/* <li className="flex gap-x-3">
                 <CheckCircleIcon
                   aria-hidden="true"
                   className="items-center justify-center flex-none text-sm text-green-600 rounded-full w-7 h-7"
@@ -133,7 +133,7 @@ export function Personopplysninger() {
                   </strong>{' '}
                   se vår informasjon om cookies her: URL til cookie-erklæring
                 </span>
-              </li>
+              </li> */}
             </ul>
             <p className="mt-8">
               Personopplysningene samles i de fleste tilfeller inn direkte fra

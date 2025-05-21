@@ -63,7 +63,7 @@ const personopplysninger = [
     id: '9',
     title: 'Dine rettigheter',
     description: [
-      'Dersom du ønsker å utøve noen av dine rettigheter, ta kontakt med oss på <DPO epostadresse>.',
+      'Dersom du ønsker å utøve noen av dine rettigheter, ta kontakt med oss på frank@entalpy.no.',
     ],
   },
   {
