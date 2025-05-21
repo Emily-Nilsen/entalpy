@@ -10,6 +10,7 @@ const navigation = {
   kundeservice: [
     { name: 'Salgs- og leveringsbetingelser', href: '/betingelser' },
     { name: 'Kontakt oss', href: '/kontakt' },
+    { name: 'Personvernerklæring', href: '/personvernerklaering' },
   ],
   bedrift: [
     { name: 'Hjem', href: '/' },
