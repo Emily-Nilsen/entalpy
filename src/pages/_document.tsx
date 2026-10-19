@@ -5,10 +5,6 @@ export default function Document() {
     <Html lang="no">
       <Head>
         <link rel="icon" href="/media/Logo_Entalpy.png" />
-        <link
-          rel="stylesheet"
-          href="https://use.typekit.net/gnu4bgp.css"
-        ></link>
       </Head>
       <body>
         <Main />

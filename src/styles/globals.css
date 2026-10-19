@@ -29,6 +29,6 @@ body {
 
 @layer base {
   html {
-    font-family: open-sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 }
